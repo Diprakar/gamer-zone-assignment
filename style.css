@@ -198,7 +198,25 @@ a {
     font-weight: 700;
     margin-bottom: 13px;
 }
-#descrip{
+
+#descrip {
     text-align: center;
     margin: 0 auto;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-description {
+    width: 250px;
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.cards-container {
+    display: flex;
+    gap: 20px;
+    padding: 48px 260px 48px 140px;
 }
