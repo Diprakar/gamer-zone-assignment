@@ -18,6 +18,47 @@
     font-weight: 700;
 }
 
+.text-common-size {
+    color: #0B0223;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.text-weight500 {
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    display: inline-flex;
+    padding: 18px 34px;
+    align-items: flex-start;
+    gap: 10px;
+    border: none;
+}
+
+/* goat text */
+.goat-text {
+    margin-top: 0;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 5.6rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
 /* Nav Styles */
 
 nav {
@@ -26,17 +67,18 @@ nav {
     align-items: center;
     margin: 0 auto;
     gap: 380px;
+    padding: 10px 220px;
 }
 
 header {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-    padding: 10px 240px;
+
 }
 
 .nav-left {
     display: flex;
-    margin-left: -90px;
+    margin-left: -100px;
 }
 
 nav>ul {
@@ -49,16 +91,54 @@ nav>ul {
 nav li a {
     text-decoration: none;
     color: #3C354F;
-    padding: 28px;
+    padding: 20px;
 }
 
 a {
     white-space: nowrap;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 #nav-img {
     width: 82px;
     height: 38px;
     padding: 45px 5px;
+}
+
+/* banner related styles */
+.banner {
+    display: flex;
+    padding: 0;
+}
+.banner-left {
+    background-image: url(images/Group\ 14.png);
+    background-position:right;
+    padding-right: 120px;
+    padding-top: 20px;
+    margin-left: -25px ;
+}
+.left-mid {
+    padding: 80px 140px 80px 140px;
+}
+
+#pink {
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+#light-blue{
+    background: #4EC5F7;
+}
+#top{
+    width: 500px;
+}
+.banner-right{
+    padding: 15px 5px 90px 40px;
+}
+#mid{
+    width: 200px;
+}
+#bottom{
+    width: 350px;
+}
+.photos{
+    display: flex;
 }
