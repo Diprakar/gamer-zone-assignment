@@ -229,6 +229,14 @@ a {
     margin: 0 80px 100px 80px;
 }
 
+.dot {
+    color: #534C64;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
 /* Play-card-related-styles */
 .instant-play-cards {
     display: flex;
@@ -640,38 +648,47 @@ footer {
         width: 500px;
         margin-left: -5px;
     }
-    .action-container{
+
+    .action-container {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         height: 100%;
     }
-    .upper-btn>h3{
+
+    .upper-btn>h3 {
         font-size: 0.8rem;
         font-weight: 400px;
     }
-    .upper-btn:hover{
+
+    .upper-btn:hover {
         border: 2px solid #FF42A5;
     }
+
     .action {
         font-size: 0.7rem;
         margin-top: 10px;
         margin-left: -24px;
     }
-    .images-action{
+
+    .images-action {
         width: 45px;
         height: 35px;
     }
-    #pading{
+
+    #pading {
         padding-left: 15px;
         width: 60px;
     }
-    .footer-title{
+
+    .footer-title {
         margin-left: 100px;
         padding-top: 110px;
     }
-    #gamer{
+
+    #gamer {
         margin-left: 0px;
     }
+
     footer>ul {
         display: flex;
         list-style: none;
@@ -679,22 +696,26 @@ footer {
         font-weight: 500;
         margin-left: -50px;
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         text-align: center;
         margin-top: 20px;
         gap: 20px;
     }
-    .social-links{
-        display:grid;
-        grid-template-columns: repeat(3,1fr);
+
+    .social-links {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         margin-left: 55px;
     }
-    #another{
+
+    #another {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         margin-bottom: 40px;
     }
-    footer{
-        height: 700px;
+
+    .footer {
+        width: 390px;
+        height: 750px;
     }
 }
