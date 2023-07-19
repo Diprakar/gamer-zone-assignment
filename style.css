@@ -225,7 +225,6 @@ a {
 /* Play-card-related-styles */
 .instant-play-cards {
     display: flex;
-    margin-bottom: 120px;
 }
 
 .instant-play {
@@ -234,6 +233,7 @@ a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .instant-title {
     text-align: right;
     font-size: 3rem;
@@ -242,12 +242,14 @@ a {
     margin-bottom: 20px;
     line-height: 55px;
 }
-.instant-left{
+
+.instant-left {
     margin-top: 150px;
     margin-right: 170px;
     align-items: center;
 }
-.play-description{
+
+.play-description {
     color: #534C64;
     text-align: right;
     font-size: 0.9rem;
@@ -256,12 +258,14 @@ a {
     width: 60%;
     margin-left: 190px;
 }
-.instant-img-container img{
+
+.instant-img-container img {
     margin-right: 80px;
     width: 580px;
     height: 600px;
 }
-.side-image img{
+
+.side-image img {
     width: 45%;
     height: 45%;
     position: relative;
@@ -270,3 +274,67 @@ a {
 }
 
 /* pink section */
+
+.lists {
+    display: flex;
+}
+
+.pink-description {
+    display: flex;
+    justify-content: space-between;
+    background: #FF42A5;
+    height: 100%;
+}
+
+.right-image img {
+    width: 650px;
+}
+
+.career-left {
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+.career-title {
+    color: #FFF;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.carer-description {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 600px;
+    margin-bottom: 25px;
+}
+
+.left-lists {
+    color: #FFF;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.right-lists {
+    color: #FFF;
+    text-align: right;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.btn-position {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    display: inline-flex;
+    padding: 18px 34px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FF42A5;
+    background: #FFF;
+    border: none;
+}
